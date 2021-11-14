@@ -1,0 +1,367 @@
+* {
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    flex-direction: row;
+    background-color: rgb(92, 143, 236);
+    gap: 4%;
+    height: 130px;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 2px;
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 100%;
+}
+
+.logo-top {
+display: flex;
+background-image: url(./img/book1.png);
+margin: 5%;
+}
+
+.page-title {
+    display: flex;
+    color: white;
+    margin: 2%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.top-nav {
+    display: flex;
+    margin: 2%;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+ul {
+    gap:8px;
+    list-style-type: none;
+
+}
+
+li {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin: 1vw;
+
+}
+
+.start-here {
+    width: 100vw;
+    display: flex;
+    height: 830px;
+}
+
+.html {
+    padding: 0%;
+}
+
+.large-img {
+    display: flex;
+    z-index: 0;
+    width: 100vw;
+    background-image: url(./img/thinking1.jpg);background-repeat:no-repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+.words-and-button {
+    display: flex;
+    justify-content: center;
+}
+
+.start-here-text {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 20%;
+    color: rgb(107, 17, 17);
+    font-size: 40px;
+    flex-direction: column;
+}
+
+.start-button {
+    display: inline-flex;
+}
+
+#start-here {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(143, 185, 248);
+    font-size: 18px;
+    align-items: center;
+    border: none;
+    box-shadow: 2px 1px hsla(100, 100, 80, 20%)
+}
+
+
+
+.about {
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    height: 300px;
+    color: rgb(128, 19, 19);
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.about-link {
+    display: flex;
+    background-color: rgb(128, 19, 19);
+    width: 100px;
+    height: 20px;
+}
+
+
+#about-button {
+    background-color: rgb(128, 19, 19);
+    color: white;
+    font-weight: 600;
+    height: 45px;
+    width: 155px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    padding: 4px;
+    margin-left: 30%;
+
+}
+
+.one, .two, .three, .four {
+    align-items: center;
+}
+
+.one, .three {
+    font-size: 24px;
+    margin: 0px;
+    line-height: 15px;
+}
+
+.two, .four {
+    font-size: 19px;
+}
+
+.one {
+    margin-left: 5%;
+}
+
+.two {
+    margin-left: 10%;
+}
+
+.three {
+    margin-left: 45%;
+}
+
+.four {
+    margin-left: 50%;
+}
+
+.growth-philosophy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: rgb(10, 18, 53);
+    width: 100vw;
+    box-shadow: 6px 6px 6px 6px;
+    z-index: 1;
+}
+
+.philo-text {
+display: flex;
+height: 100px;
+font-size: 30px;
+color: rgb(255, 255, 255);
+margin-left: 5%;
+width: 100vw;
+z-index: 2;
+}
+
+.philo-links {
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 20%;
+}
+
+.fellowship {
+    display: flex;
+    height: 15%;
+    width: 15%;
+
+}
+
+.knowledge {
+    display: flex;
+    height: 15%;
+    width: 15%;
+
+}
+
+.service {
+    display: flex;
+    height: 15%;
+    width: 15%;
+
+}
+
+.accountability {
+    display: flex;
+    height: 15%;
+    width: 15%;
+
+}
+
+.worship {
+    display: flex;
+    height: 15%;
+    width: 15%;
+}
+
+.logo {
+    display: flex;
+    background-image: url(./img/book1.png);
+    background-size: contain;
+    height: 75px;
+    width: 75px;
+    justify-content: flex-start;
+    margin-top: 50%;
+}
+
+.about-text {
+    display: flex;
+    box-sizing: content-box;
+}
+
+.featured {
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    height: 400px;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.featured-top {
+display: flex;
+height: 100px;
+margin-right: 40%;
+z-index: 1;
+}
+
+
+.featured-lower {
+display: flex;
+height: 300px;
+align-items: center;
+}
+
+.article-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.connect   {
+    width: 100vw;
+    display: flex;
+    background-image: url(./img/lounge3.jpg);
+    background-size: cover;
+    height: 600px;
+    flex-direction: column;
+}
+
+.connect-top {
+display: flex;
+height: 30%;
+}
+
+.featured {
+display: flex;
+height: 250px;
+width: 100vw;
+align-items: center;
+}
+
+.article-container {
+    display: flex;
+    gap: 10px;
+    height: 150px;
+    width: 100vw;
+    
+}
+
+.connect-text {
+    display: flex;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto;
+
+}
+
+.connect-lower {
+    display: flex;
+    height: 70%;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    height: 500px;
+    background-color: rgb(94, 97, 100);
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.words-and-button {
+
+}
+
+button {
+
+}
