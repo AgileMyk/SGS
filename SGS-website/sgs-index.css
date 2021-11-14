@@ -1,0 +1,167 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    flex-direction: row;
+    background-color: rgb(46, 96, 189);
+    justify-content: space-between;
+    height: 150px;
+}
+
+body {
+
+}
+
+.logo {
+display: flex;
+}
+
+.page-title {
+    display: flex;
+    color: white;
+}
+
+.top-nav {
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+ul {
+    gap:8px;
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin: 1vw;
+}
+
+.start-here {
+    width: 100vw;
+    display: flex;
+    height: 830px;
+}
+
+.large-img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 0;
+    width: 100vw;
+    background-image: url(./img/thinking1.jpg);background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.words-and-button {
+    display: flex;
+    justify-content: center;
+}
+
+.start-here-text {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 60%;
+    color: rgb(107, 17, 17);
+    font-size: 40px;
+    margin: auto;
+}
+
+#start-here {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    border-radius: 15px;
+    border: 2px solid gray;
+    background-color: white;
+    color: rgb(64, 128, 224);
+    font-size: 18px;
+}
+
+.about {
+    display: flex;
+    background-color: rgb(128, 19, 19);
+    width: 100vw;
+    height: 300px;
+    color: white;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.one, .two, .three, .four {
+    align-items: center;
+}
+
+.one, .three {
+    font-size: 24px;
+    margin: 0px;
+    line-height: 15px;
+}
+
+.two, .four {
+    font-size: 19px;
+}
+
+.two {
+    margin-left: 5%;
+}
+
+.three {
+    margin-left: 45%;
+}
+
+.four {
+    margin-left: 50%;
+}
+
+.logo {
+    display: flex;
+    background-image: url(./img/book1.png);
+    background-size: contain;
+    height: 75px;
+    width: 75px;
+    justify-content: flex-start;
+    margin-top: 50%;
+}
+
+.about-text {
+    display: flex;
+    box-sizing: content-box;
+}
+
+.about-link  {
+    display: flex;
+    background-color: white;
+    color: rgb(87, 11, 11);
+}
+
+p {
+
+}
+
+
+.large-img {
+
+}
+
+.words-and-button {
+
+}
+
+button {
+
+}
