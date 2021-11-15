@@ -1,0 +1,13 @@
+#logo {
+    float: left;
+}
+
+#horizontal-nav {
+    padding-left: 100px;
+    display: block;
+}
+
+#vertical-nav {
+    float: left;
+    padding: 0px 30px 30px 30px;
+}

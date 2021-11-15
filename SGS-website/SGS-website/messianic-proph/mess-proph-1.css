@@ -1,0 +1,113 @@
+#logo {
+
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.full-body  {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 1000px;
+}
+
+.vertical-nav {    
+    background-color: rgb(10, 18, 53);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 1000px;
+    position: fixed;
+    width: 15vw;
+    height: 1000px;
+    align-content: space-around;
+}
+
+.vert-logo {
+    display: flex;
+    margin-top: 20%;
+    margin-bottom: 30%;
+
+}
+
+.vert-heading {
+    display: flex;
+    margin-bottom: 20%;
+    padding:15%;
+}
+
+.vert-link-one {
+    display: flex;
+    margin-bottom: 70%;
+    padding:15%;
+
+}
+
+.vert-link-two {
+    display: flex;
+    margin-bottom: 70%;
+    padding:15%;
+
+}
+
+/*#vertical-nav {
+    background-color: rgb(10, 18, 53);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 0px 30px 30px 30px;
+    height: 1000px;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 15vw;
+    height: 1000px;
+}*/
+
+
+
+.side-body {
+    display: flex;
+    width: 80vw;
+    position: absolute;
+    margin-left: 15vw;
+    flex-direction: column;
+    position: relative;
+    left: 2vw;
+}
+
+header {
+}
+
+.horizontal-title {
+    display: block;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+#horizontal-nav {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+article {
+    height: 1000px;
+
+}
