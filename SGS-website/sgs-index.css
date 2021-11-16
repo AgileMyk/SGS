@@ -12,7 +12,7 @@ header {
     gap: 3%;
     height: 130px;
     position: fixed;
-    z-index: 2;
+    z-index: 4;
     box-shadow: 2px;
 }
 
@@ -79,6 +79,7 @@ li {
     width: 100vw;
     display: flex;
     height: 830px;
+    box-sizing: border-box;
 }
 
 .html {
@@ -86,6 +87,7 @@ li {
 }
 
 .large-img {
+    box-sizing: border-box;
     display: flex;
     width: 100vw;
     z-index: 0;
@@ -98,16 +100,24 @@ li {
 .words-and-button {
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .start-here-text {
+    width: 80%;
+    height: 50%;
     display: flex;
-    
-    margin-left: 10%;
-    margin-top: 20%;
+    box-sizing: border-box;
+    margin-top: 150px;
+    margin-left: 100px;
     color: rgb(107, 17, 17);
-    font-size: 40px;
+    font-size: 70px;
     flex-direction: column;
+    text-align: center;
+
+}
+
+#start-here-question {
 }
 
 .start-button {
@@ -116,6 +126,8 @@ li {
     align-items: center;
     margin: 0 auto;
     justify-items: center;
+    border: none;
+    box-shadow: 2px 1px hsla(100, 100, 80, 20%)
 }
 
 #start-here {
@@ -125,11 +137,14 @@ li {
     padding: 0;
     border-radius: 15px;
     background-color: white;
-    color: rgb(143, 185, 248);
+    color: rgb(94, 154, 245);
     font-size: 18px;
     align-items: center;
-    border: none;
-    box-shadow: 2px 1px hsla(100, 100, 80, 20%)
+    border: 1px solid cornflowerblue;
+    box-shadow: 2px 1.5px rgba(64, 81, 102, 0.2);
+    margin-right: 150px;
+    margin-top: 75px;
+    
 }
 
 
