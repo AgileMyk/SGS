@@ -1,0 +1,188 @@
+/*important!*/
+
+html {
+margin: 0;
+width: 100vw;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+}
+
+header {
+display: flex;
+flex-direction: row;
+background-image: url(./img/thinking1.jpg);
+background-size: cover;
+max-width: auto;
+height: 220px;
+padding: 40px;
+justify-content: space-between;
+box-sizing: ;
+}
+
+div {
+    border: dotted 1px silver;
+    max-width: 100%;
+}
+
+.logo {
+display: flex;
+background-color: transparent;
+width: 15%;
+border: 1px dodgerblue dotted;
+
+}
+
+.title {
+    display: flex;
+    background-color: transparent;
+    width: 50%;
+    border: 1px dodgerblue dotted;
+}
+
+.select {
+display: flex;
+background-color: transparent;
+width: 15%;
+border: 1px dodgerblue dotted;
+}
+
+.top-nav {
+    display: flex;
+}
+
+.main {
+    padding: 15px;
+    background-color: linear-gradient(45 brown gold);
+    width: 1053px;
+    box-sizing: border-box;
+    margin: 0 auto 0 auto;
+}
+
+.div1 {
+
+}
+
+.a {
+
+}
+
+.b {
+
+}
+
+.c {
+
+}
+
+.d {
+
+}
+
+.e {
+
+}
+
+.div2 {
+    font-family: 'Estonia';  
+    background-image: url(./img/james1.jpg);
+    width: 250px;
+    height: 125px;
+    background-size: cover;
+    color: whitesmoke;
+    letter-spacing: .2em;
+    border: 2px dotted whitesmoke;
+    padding: 12.5px;
+    box-sizing: border-box;
+
+}
+
+.div3 {
+    
+}
+
+.div4 {
+    
+}
+
+.div5 {
+    
+}
+
+
+.div6 {
+    font-family: 'Estonia';
+}
+
+.div7 {
+    
+}
+
+.info {
+    font-family: 'Josefin Sans';
+}
+
+.border-two {
+border: 
+/*dotted*/
+/*dashed*/
+/*double*/
+/*groove*/
+/*ridge*/
+/*inset*/
+/*outset*/
+/*hidden*/;
+border-radius: 5px;
+
+}
+
+#home-link:hover {
+    padding: 1%;
+    transform: rotate(-2deg);
+}
+
+[type="checkbox"] {
+    margin:;
+    display: ;
+;
+}
+
+.specific-questions {
+    align-content: center;
+}
+
+.questions {
+
+}
+
+.form-top {
+
+}
+
+.form-bottom {
+    padding: auto;
+    display: flex;
+}
+
+#text-area {
+    display: flex;
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+#specific-p {
+text-align: center;
+}
+
+/*Alternatives using variables*/
+
+.grid1 {
+    --row-one: rgb(116, 25, 25);    
+}
+
+.block-a {
+    background-color: var(--row-one, brown);
+}
+
