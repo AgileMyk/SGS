@@ -1,4 +1,13 @@
 /*important!*/
+:root {
+    --table-point: rgb(255, 51, 0);
+    --table-ev: yellowgreen;
+    --table-detail: rgb(255, 174, 0);
+}
+
+* {
+    border: 1px dashed black;
+}
 
 html {
 margin: 0;
@@ -8,6 +17,8 @@ width: 100vw;
 body {
     margin: 0;
     width: 100vw;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    position: absolute;
 }
 
 header {
@@ -15,11 +26,95 @@ display: flex;
 flex-direction: row;
 background-image: url(./img/thinking1.jpg);
 background-size: cover;
-max-width: auto;
+width: 100vw;   
 height: 220px;
 padding: 40px;
 justify-content: space-between;
 box-sizing: ;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+z-index: 2;
+}
+
+.left {
+        display: flex;
+        background-color: transparent;
+        width: 15%;
+        border: 1px dodgerblue dotted;
+        box-sizing:border-box
+        
+}
+
+.fixed-header-help {
+    height: 302px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.logo {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 16px;
+    max-width: 100%;
+    border-radius: 50%;
+    background: linear-gradient(35deg, ##ffcccc, #ccffff);
+    animation-name: motion;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    z-index: 5;
+}
+
+@keyframes motion {
+    0% {
+        bottom: 0px;
+    }
+
+    50% {
+        bottom: 2.5px;
+    }
+
+    100% {
+        bottom: 5px;
+    }
+}
+
+.select-in {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: blue;
+}
+
+.select-in:hover {
+    position: absolute;
+    left: 90px;
+    top: 0px;
+    bottom: -25px;
+    right: 0px;
+ 
+}
+
+#top-nav {
+    list-style: none;
+    position: absolute;
+    transform: skewX(35deg);
+}
+
+#dropdown a:hover{
+    position: absolute;
+    left:0;
+    bottom: 50%;
+    top:0;
+    right: 90%;
+
 }
 
 div {
@@ -32,7 +127,21 @@ display: flex;
 background-color: transparent;
 width: 15%;
 border: 1px dodgerblue dotted;
+}
 
+h1::before {
+    content:'';
+    background-color: blue;
+    height: 10px;
+    width: 10px;);
+}
+
+#home-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60%;
+    width: 80px;
+    height: 30px;
 }
 
 .title {
@@ -138,10 +247,6 @@ border-radius: 5px;
 
 }
 
-#home-link:hover {
-    padding: 1%;
-    transform: rotate(-2deg);
-}
 
 [type="checkbox"] {
     margin:;
@@ -182,7 +287,80 @@ text-align: center;
     --row-one: rgb(116, 25, 25);    
 }
 
+.below-grid {
+    display: flex;
+    flex-direction: column;
+}
+
 .block-a {
     background-color: var(--row-one, brown);
 }
 
+.collapse {
+
+}
+
+.caption {
+
+    text-align: center;
+}
+
+table {
+    width: 80vw; border: 2.5px solid rgb(68, 62, 54);
+
+}
+
+caption {
+    text-align: center;
+}
+
+
+
+#head {
+    background-color: rgb(0, 255, 136);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    transform: none;
+    border-radius: none;
+    border: none;
+    box-shadow:none;
+}
+
+#blank {
+    border: none;
+    background-color: rgb(0, 255, 136);
+}
+
+tr, td, th {
+    border: none;
+}
+
+tr, td {
+    height: 100px;
+}
+
+td {
+    background: var(--table-detail);
+}
+
+td:hover {
+    transform: scale(1.25);
+    border-radius: 5px;
+    border: rgb(116, 58, 25);
+    position: relative;
+    box-shadow:1px 1px 1px 1px rgb(116, 58, 25);
+}
+
+th {
+    width: 150px;
+}
+
+.ev {
+    background: var(--table-ev);
+}
+
+.point {
+    background-color: var(--table-point);
+}
